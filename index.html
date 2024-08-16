@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me gusta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <main>
+        <div class="profile-section">
+            <div class="profile-info">
+                <img src="Imagperfil.jpg" alt="Tu Foto de Perfil" class="profile-pic">
+                <div>
+                    <h1>Karin Schneider</h1>
+                    <textarea id="status-update" placeholder="Escribe algo para compartir...✏️" rows="4" cols="50"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="users-section">
+            <div class="user-card">
+                <div class="user-info">
+                    <img src="Imag2.jpg" alt="Kira" class="user-pic">
+                    <div class="user-details">
+                        <h2>Kira Wagner</h2>
+                        <p>Acabo de terminar un comic muy interante, deberían darle un vistazo!</p>
+                    </div>
+                </div>
+                <button class="like-btn" data-title="kira">Me gusta <span class="like-count">0</span> </button>
+            </div>
+            <div class="user-card">
+                <div class="user-info">
+                    <img src="Imag1.jpg" alt="Petter" class="user-pic">
+                    <div class="user-details">
+                        <h2>Petter Braun</h2>
+                        <p> Hoy fui al gymnasio y me salí mucho de mi rutina, fue bien, debería hacerlo más seguido.</p>
+                    </div>
+                </div>
+                <button class="like-btn" data-title="Petter">Me gusta <span class="like-count">0 </span> </button>
+            </div>
+            <div class="user-card">
+                <div class="user-info">
+                    <img src="Imag3.jpg" alt="Alisson" class="user-pic">
+                    <div class="user-details">
+                        <h2>Alisson Stein</h2>
+                        <p>La constancia y la dedicación son mis claves para alcanzar mis metas, me lo he confirmado con el examen de hoy.</p>
+                    </div>
+                </div>
+                <button class="like-btn" data-title="Alisson">Me gusta <span class="like-count">0</span> </button>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
